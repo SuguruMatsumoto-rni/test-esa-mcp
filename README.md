@@ -4,11 +4,10 @@ esa MCP サーバーの調査・検証用リポジトリ。
 
 ## 概要
 
-[esa.io](https://esa.io) 公式の MCP サーバー ([esaio/esa-mcp-server](https://github.com/esaio/esa-mcp-server)) を VS Code + GitHub Copilot で利用するための設定と調査レポートをまとめています。
+[esa.io](https://esa.io) 公式の MCP サーバー ([esaio/esa-mcp-server](https://github.com/esaio/esa-mcp-server)) を VS Code + GitHub Copilot で利用するための設定をまとめています。
 
 ## 内容
 
-- `docs/esa-mcp.md` — esa MCP サーバーの調査レポート
 - `.vscode/mcp.json` — VS Code 用の MCP サーバー設定（Docker版）
 - `.github/copilot-instructions.md` — GitHub Copilot 向けの指示設定
 
