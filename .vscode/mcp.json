@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "esa": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "ESA_ACCESS_TOKEN",
+        "-e",
+        "LANG",
+        "ghcr.io/esaio/esa-mcp-server"
+      ],
+      "envFile": "${workspaceFolder}/.mcp-esa.env"
+    }
+  }
+}
